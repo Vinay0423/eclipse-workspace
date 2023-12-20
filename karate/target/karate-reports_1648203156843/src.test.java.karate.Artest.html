@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>src.test.java.karate.Artest</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-03-25 02:58:04 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:3]"><span>[1:3]</span> <span>user should complete the art test successfully</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/karate/Artest.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">ART Test succesful</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:3]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:3]</span>
+                <span class="scenario-name">user should complete the art test successfully</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>3657</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref passed">4</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://entrypass.azurewebsites.net/entrypass/UATAPI/Employee/12/ArtTest&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">167</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;testDate&quot;: &quot;2022-03-25T14:55:01&quot;, &quot;testResult&quot;: false,&quot;fileName&quot;: &quot;8cd4d44c-654c-46c7-943b-089c33b179e0_Image from iOS (36).png&quot;,&quot;testKit&quot;: &quot;1&quot;,&quot;temperature&quot;: &quot;23.1&quot;,&quot;remarks&quot;: &quot;none&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">92</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref passed">6</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method POST</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3209</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.6">14:58:03.429 request:
+1 &gt; POST https://entrypass.azurewebsites.net/entrypass/UATAPI/Employee/12/ArtTest
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 179
+1 &gt; Host: entrypass.azurewebsites.net
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_291)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;testDate&quot;:&quot;2022-03-25T14:55:01&quot;,&quot;testResult&quot;:false,&quot;fileName&quot;:&quot;8cd4d44c-654c-46c7-943b-089c33b179e0_Image from iOS (36).png&quot;,&quot;testKit&quot;:&quot;1&quot;,&quot;temperature&quot;:&quot;23.1&quot;,&quot;remarks&quot;:&quot;none&quot;}
+
+14:58:04.627 response time in milliseconds: 1182
+1 &lt; 200
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Vary: Accept-Encoding
+1 &lt; Server: Microsoft-IIS/10.0
+1 &lt; CorrelationId: 8cbfb1e0-e0fd-4e1d-9924-b14e2f9bfe1d
+1 &lt; X-Powered-By: ASP.NET
+1 &lt; Date: Fri, 25 Mar 2022 09:28:04 GMT
+1 &lt; Set-Cookie: ARRAffinity=3966815c1735e25eacb9e7fcb3ffb349f6996faf94adcbc3ff049af8f9f3a62b; Domain=entrypass.azurewebsites.net; Secure
+1 &lt; Set-Cookie: ARRAffinitySameSite=3966815c1735e25eacb9e7fcb3ffb349f6996faf94adcbc3ff049af8f9f3a62b; Domain=entrypass.azurewebsites.net; Secure
+{&quot;result&quot;:{&quot;success&quot;:true,&quot;artTestId&quot;:34,&quot;employeeID&quot;:12},&quot;correlationId&quot;:null}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print responseTime</span>
+      </div>
+    </div>
+    <div class="time-cell passed">187</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">14:58:04.822 [print] 1182 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print responseStatus</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">14:58:04.826 [print] 200 
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

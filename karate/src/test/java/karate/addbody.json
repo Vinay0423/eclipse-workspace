@@ -1,0 +1,37 @@
+{
+  "blockNoStreetName": "api testing",
+  "floorNoUnitNo": "2",
+  "postalCode": 323,
+  "occupant": 1,
+  "bedrooms": 1,
+  "bathrooms": 1,
+  "contactNo": "string",
+  "latitude": "13.034",
+  "longitude": "77.4888",
+  "isSupervisor": false,
+  "staffVerification": false,
+  "staffEmployeeID": 0,
+  "addressImages": [
+    {
+      "type": "string1",
+      "fileName": "test.jpeg"
+    },
+ {
+      "type": "string2",
+      "fileName": "test2.jpeg"
+    },
+ {
+      "type": "string3",
+      "fileName": "test3.jpeg"
+    },
+ {
+      "type": "string4",
+      "fileName": "test4.jpeg"
+    },
+ {
+      "type": "string5",
+      "fileName": "test2.jpeg"
+    }
+
+  ]
+}
